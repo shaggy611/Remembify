@@ -43,7 +43,7 @@ async function getDatabase() {
 
 
 
-app.get('/', async (req, res) => {
+app.get('/api', async (req, res) => {
     const data = await getDatabase()
     // data.then((info) => {
     //     const x = {
